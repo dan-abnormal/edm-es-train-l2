@@ -497,7 +497,7 @@ def main(network_pkl, outdir, subdirs, seeds, class_idx, max_batch_size, device=
                                     **data_loader_kwargs))
 
     # euler ODE sampler settings
-    num_steps = 21
+    num_steps = 18
     sigma_min = None
     sigma_max = None
     rho = 7
